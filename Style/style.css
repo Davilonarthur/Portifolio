@@ -1,9 +1,61 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(37, 27, 83);
+  color: aquamarine;
+}
+
 header {
-  background-color: rgb(110, 73, 73);
+  background-color: rgba(5, 20, 48, 0.522);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+}
+
+#Logo {
+  margin: 1vh;
+}
+
+h2 {
+  margin: 0 auto 0 1vh;
+}
+
+nav {
+  margin: 2vh;
+}
+nav ul {
+  display: flex;
+  gap: 2vh;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  background-color: rgb(50, 50, 47);
+  height: 100%;
+  width: 100%;
+}
+
+#Infobase {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 92vh;
+  padding: 0 5vw;
+}
+#Infobase h1 {
+  font-size: 7vh;
+}
+#Infobase p {
+  font-size: 2.5vh;
 }/*# sourceMappingURL=style.css.map */
